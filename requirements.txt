@@ -1,5 +1,5 @@
 # ===== Core DL =====
-tensorflow==2.15.1
+tensorflow==2.19.0
 
 # ===== Scientific stack (versiones compatibles con TF 2.15) =====
 numpy==1.26.4
@@ -9,11 +9,14 @@ scikit-learn==1.4.2
 
 # ===== Utilidades =====
 tqdm==4.66.4
-h5py==3.10.0
+h5py
 protobuf==4.25.3
 
 # ===== Interpretabilidad (Grad-CAM) =====
 tf-keras-vis==0.8.4
 
-# ===== (Opcional) Augmentations extra =====
+# ===== Augmentations extra =====
 imgaug==0.4.0
+
+
+jupyterlab
